@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js</title>
+    <style>
+      .btn {
+        padding: 10px;
+        color: white;
+        border: 0;
+        cursor: pointer;
+      }
+      .btn-success {
+        background-color: green;
+      }
+      .btn-danger {
+        background-color: red;
+      }
+
+      .btn-success:active {
+        background-color: lightgreen;
+      }
+
+      .btn-danger:active {
+        background-color: lightcoral;
+      }
+      .btn-success:disabled {
+        background-color: lightgreen;
+        cursor: not-allowed;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>0</h1>
+      <button class="btn btn-success">Start</button>
+      <button class="btn btn-danger">Stop</button>
+    </center>
+    <script src="./script.js"></script>
+  </body>
+</html>

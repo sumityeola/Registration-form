@@ -1,0 +1,47 @@
+/* element selector */
+body {
+  font-family: Arial;
+}
+h3 {
+  color: red;
+}
+/* class selector */
+.user-form {
+  /* background-color: rgb(184, 254, 137); */
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 5px 0px brown;
+}
+
+.text-center {
+  text-align: center;
+}
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group > .form-control {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  resize: none;
+}
+
+.save {
+  padding: 10px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  background-color: green;
+  color: white;
+}
+
+.user-table {
+  margin-top: 20px;
+}
+.user-table > table {
+  margin: auto;
+}
